@@ -1,0 +1,101 @@
+/*============= free infomation styles =============*/
+.free_info {
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+.free_info_wrpr {
+	width: 100%;
+	float: left;
+}
+.free_info_wrpr.texting h2 {
+	color: #000;
+	font-size: 30px;
+	line-height: 45px;
+}	
+.free_info_wrpr.texting h2::before {
+    height: 45px;
+}
+.info_contnt_wrpr {
+    width: 65%;
+    float: left;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #b0b0b0;
+}
+.info_img {
+	float: left;
+}
+.info_img img {
+	max-width: 100%;
+}
+.info_cntnt {
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+}
+.info_cntnt h4 {
+	display: block;
+	font-family: 'Oswald-Bold';
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 2px;
+	font-size: 27px;
+}
+.info_cntnt p {
+	display: block;
+	text-align: left;
+	font-size: 14px;
+	font-family: 'OpenSans-Regular';
+	margin: 0;
+	padding-bottom: 20px;
+}
+.info_btn {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular';
+    margin: 0;
+    padding: 6px 20px;
+    border: 3px solid #d48c00;
+    color: #fff;
+    background-color: #ffa800;
+    cursor: pointer;
+}
+.info_btn:hover {
+    background-color: #e79901;
+}
+
+/*============= free infomation detail page styles =============*/
+.info_contnt_wrpr.detailpage {
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+.detailpage_cntnt {
+    width: 100%;
+    float: left;
+}
+.detailpage_cntnt p {
+    text-align: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'OpenSans-Regular';
+}
+.info_contnt_wrpr.detailpage .info_cntnt {
+    border-bottom: 1px solid #dbd9d9;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.info_contnt_wrpr.detailpage .info_cntnt p {
+    padding-bottom: 0;
+}
+
+
+@media only screen and (max-width: 999px) {
+.info_contnt_wrpr {
+    width: 100%;
+    float: left;
+}
+}
